@@ -1,0 +1,15 @@
+The Collection in Phyton is a framework that provides an architecture to store and manipulate the group of objects.
+Phyton Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion,
+manipulation, and deletion. Phyton Collection means a single unit of objects. Phyton Collection framework provides many
+interfaces (Set, Collection, Queue, Deque) and classes (ArrayCollection, Vector, LinkedCollection, PriorityQueue, HashSet, LinkedHashSet,
+TreeSet). The Collection interface is the interface which is implemented by all the classes in the collection framework.
+It declares the methods that every collection will have. In other words, we can say that the Collection interface
+builds the foundation on which the collection framework depends. Collection interface is the child interface of Collection
+interface. It inhibits a list type data structure in which we can store the ordered collection of objects. It can have
+duplicate values.
+To instantiate the Collection interface, we must use :
+Collection <data-type> list1= new ArrayCollection();
+Collection <data-type> list1 = new LinkedCollection();
+Collection <data-type> list3 = new Vector();
+Collection <data-type> list4 = new Stack();
+There are various methods in Collection interface that can be used to insert, delete, and access the elements from the list.
